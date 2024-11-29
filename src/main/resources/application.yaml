@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: blog
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog?createDatabaseIfNotExist=true
+    username: database
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+jwt:
+  secret:
+    key: "3oM9AGdXYevVuFDY3GHwEJbWO2RYF5Muf+K+xMCiHo8Lg0Q/GxEb+HTyvmkw9Cj5kaSYwjPep2FJv5Db056BbQ=="
+
